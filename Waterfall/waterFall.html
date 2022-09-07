@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>渲染图</title>
+    <link rel="stylesheet" href="waterFall.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="brand">Travel</a>
+        <div class="menu-btn"> </div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="#">首页</a>
+                <a href="waterFall.html">瀑布流</a>
+                <a href="#">Explore</a>
+                <a href="#">Gallery</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="home">
+        <!-- div.wf-content>div*40.wf-item>img[src="./images/$.png" onclick="imgClick(this.src)"] -->
+        <div class="wf-content">
+            <div class="wf-item"><img src="./images/1.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/2.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/3.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/4.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/5.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/6.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/7.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/8.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/9.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/10.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/11.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/12.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/13.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/14.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/15.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/16.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/17.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/18.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/19.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/20.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/21.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/22.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/23.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/24.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/25.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/26.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/27.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/28.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/29.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/30.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/31.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/32.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/33.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/34.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/35.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/36.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/37.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/38.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/39.png" alt="" onclick="imgClick(this.src)"></div>
+            <div class="wf-item"><img src="./images/40.png" alt="" onclick="imgClick(this.src)"></div>
+        </div>
+    </div>
+
+    <div id="bigImg" style="display: none">
+        <div>
+            <img src="" alt="" id="showImg">
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript">
+    function imgClick(src) {
+        // console.count(src);
+        // var bigImg = document.getElementById("haha");
+        // bigImg.src = src;
+        // document.getElementById("bigImg").setAttribute('style', 'display:block');
+
+        var bigImg = document.getElementById("bigImg");
+        var showImg = document.getElementById("showImg");
+        bigImg.style.display = "block";
+
+        showImg.src = src;
+
+        bigImg.onclick = function () {
+            bigImg.style.display = "none";
+        }
+    }
+
+
+</script>
+
+
+
+</html>
