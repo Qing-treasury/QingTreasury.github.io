@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-header{
+header {
   z-index: 999;
   position: absolute;
   top: 0;
@@ -18,7 +18,7 @@ header{
   transition: 0.5s ease;
 }
 
-header .brand{
+header .brand {
   color: #fff;
   font-size: 1.5em;
   font-weight: 700;
@@ -26,11 +26,11 @@ header .brand{
   text-decoration: none;
 }
 
-header .navigation{
+header .navigation {
   position: relative;
 }
 
-header .navigation .navigation-items a{
+header .navigation .navigation-items a {
   position: relative;
   color: #fff;
   font-size: 1em;
@@ -40,7 +40,7 @@ header .navigation .navigation-items a{
   transition: 0.3s ease;
 }
 
-header .navigation .navigation-items a:before{
+header .navigation .navigation-items a:before {
   content: '';
   position: absolute;
   background: #fff;
@@ -51,11 +51,11 @@ header .navigation .navigation-items a:before{
   transition: 0.3s ease;
 }
 
-header .navigation .navigation-items a:hover:before{
+header .navigation .navigation-items a:hover:before {
   width: 100%;
 }
 
-section{
+section {
   padding: 100px 200px;
 }
 
@@ -85,19 +85,22 @@ section{
 }
 
 #bigImg {
-  width: 100%;
-  height: 100vh;
-  padding: 100px;
   position: fixed;
   top: 0;
-  background-color: aqua;
+  width: 100%;
+  height: 100%;
+  /* padding: 200px; */
 }
 
 
 #bigImg div img {
-  border: 5px solid whitesmoke;
-  width: 100%;
-  height: auto;
+  border: 8px solid whitesmoke;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 

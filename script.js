@@ -11,7 +11,7 @@ function loadImage() {
     // 替换为实际的图片文件名和路径
     // const imageUrl = `https://gitee.com/Qing-boy/QingTreasury.github.io/tree/main/Waterfall/images/1.png`; // ext是图片的文件扩展名
     //const imageUrl = `https://gitee.com/Qing-boy/QingTreasury.github.io/tree/main/Waterfall/images/1.png`;
-    const imageUrl = `https://gitee.com/Qing-boy/QingTreasury.github.io/tree/main/Waterfall/images/${imagesLoaded + 1}.ext`; 
+    const imageUrl = `https://gitee.com/Qing-boy/QingTreasury.github.io/tree/main/Waterfall/images/${imagesLoaded + 1}.png`; 
 
     // 创建支持多种图片格式的正则表达式
     const imageFormats = /\.(jpeg|jpg|gif|png|webp|bmp|svg|tiff)$/i;
